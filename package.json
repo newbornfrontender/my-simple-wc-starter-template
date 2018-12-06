@@ -1,0 +1,9 @@
+{
+  "name": "my-simple-wc-starter-template",
+  "version": "1.0.0",
+  "description": "Мой стартовый шаблон для создания веб-компонентов, состоящий из минимального количества инструментов",
+  "repository": "https://github.com/newbornfrontender/my-simple-wc-starter-template.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "private": true
+}

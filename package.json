@@ -13,6 +13,8 @@
   "devDependencies": {
     "htmlnano": "^0.2.1",
     "prettier": "^1.15.3",
+    "rollup": "^0.67.4",
+    "rollup-plugin-node-resolve": "^3.4.0",
     "terser": "^3.11.0"
   }
 }

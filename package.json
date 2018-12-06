@@ -10,6 +10,7 @@
     "format": "prettier --write **/*.{html,js,json,md}"
   },
   "devDependencies": {
+    "htmlnano": "^0.2.1",
     "prettier": "^1.15.3"
   }
 }

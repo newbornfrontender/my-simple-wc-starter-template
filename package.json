@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "format": "prettier --write **/*.{html,js,json,md}"
+    "format": "prettier --write **/*.{html,js,json,md}",
+    "minify": "node htmlnano.js terser.js"
   },
   "devDependencies": {
     "htmlnano": "^0.2.1",

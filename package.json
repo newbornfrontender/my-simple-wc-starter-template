@@ -8,7 +8,12 @@
   "private": true,
   "scripts": {
     "format": "prettier --write **/*.{html,js,json,md}",
-    "minify": "node htmlnano.js terser.js"
+    "compile": "rm -rf components/lib && babel components/src -o components/lib",
+    "compile:w": "yarn compile -w",
+    "start": "rm -rf public/js && rollup -c",
+    "start:w": "yarn start -w",
+    "serve": "serve",
+    "build": "run-s compile start && node htmlnano.js terser.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.0",

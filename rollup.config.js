@@ -6,7 +6,7 @@ export default {
   input: 'components/lib/my-app.js',
   output: {
     format: 'esm',
-    dir: 'public',
+    dir: 'public/js',
   },
   plugins: [
     nodeResolve({
